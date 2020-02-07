@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "alias": [
+        "www.aider.pro"
+    ],
+    "routes": [
+       { "src": "/(.*)", "status": 301, "headers": { "Location": "https://aider.pro/$1" }}
+    ]
+}
